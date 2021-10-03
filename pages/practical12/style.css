@@ -1,0 +1,295 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: aquamarine;
+
+    background: linear-gradient(to right, #79dd8f, #ebb481);
+
+}
+
+
+caption {
+
+    caption-side: bottom;
+
+    margin-top: 10px;
+
+    color: rgb(214, 100, 190);
+
+    text-align: center;
+
+}
+
+
+table {
+
+     color: black;
+
+    text-align: left;
+
+    line-height: 20px;
+
+    border-collapse: separate;
+
+    border-spacing: 0;
+
+    border: 2px solid #647f9b;
+
+    width: 80%;
+
+    margin: 20px auto;
+
+    border-radius: 5px;
+
+}
+
+
+thead tr:first-child {
+
+    background: #4c5d6d;
+
+    color: #fff;
+
+    border: none;
+
+    line-height: 40px;
+
+}
+
+
+thead tr th:last-child {
+
+    text-align: center;
+
+    line-height: 40px;
+
+}
+
+
+thead tr th:nth-child(3) {
+
+    padding-left: 20px;
+
+}
+
+
+th:first-child,
+
+td:first-child {
+
+    padding: 0 15px 0 20px;
+
+}
+
+
+th {
+
+    font-weight: bold;
+
+}
+
+
+thead tr:last-child th {
+
+    border-bottom: 3px solid #ddd;
+
+}
+
+
+tbody tr:hover {
+
+    background-color:aqua;
+
+    cursor: default;
+
+}
+
+
+tbody tr:last-child td {
+
+    border: none;
+
+}
+
+
+tbody tr td:nth-child(1) {
+
+    width: 50px;
+
+}
+
+
+tbody tr td:nth-child(2) {
+
+    width: 500px;
+
+    padding-right: 10px;
+
+}
+
+
+tbody tr td:nth-child(3) {
+
+    padding-left: 10px;
+
+}
+
+
+tbody td {
+
+    border-bottom: 1px solid #ddd;
+
+    height: 50px;
+
+}
+
+
+td:last-child {
+
+    text-align: center;
+
+}
+
+
+.button1 {
+
+    color: #aaa;
+
+    cursor: pointer;
+
+    vertical-align: middle;
+
+    margin-top: -4px;
+
+}
+
+
+.edit:hover {
+
+    color: #0a79df;
+
+}
+
+
+.delete:hover {
+
+    color: #d84949;
+
+}
+
+
+td.deliver {
+
+    color: rgb(25, 77, 25);
+
+}
+
+
+td.pending {
+
+    color: rgb(196, 74, 74);
+
+}
+
+.button {
+
+    border-radius: 12px;
+
+    background-color: rgb(214, 100, 115);
+
+    border: none;
+
+    text-align: center;
+
+    font-size: 15px;
+
+    padding: 5px;
+
+    width: 10%;
+
+    margin: 2px;
+
+    height: 2px;
+
+}
+
+
+.button span {
+
+    display: inline-block;
+
+    color: black;
+
+}
+
+
+.button span:after {
+
+    content: '\00bb';
+
+    position: absolute;
+
+    opacity: 0;
+
+    top: 0;
+
+    transition: .8s;
+
+}
+
+
+.button:hover {
+
+    background-color: aquamarine;
+
+    box-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
+    border-radius: 20px;
+
+    rotate: 360;
+
+    transition: .8s;
+
+
+}
+
+
+.button:hover span {
+
+    margin-right: 10px;
+
+    margin-left: 10px;
+
+    color: black;
+
+    transition: .8s;
+
+}
+
+
+.button a {
+
+    text-decoration: none;
+
+}
+
+
+.button:hover span:after {
+
+    opacity: 1;
+
+    right: 0;
+
+}
