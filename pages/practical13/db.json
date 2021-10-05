@@ -1,0 +1,66 @@
+{
+    "plan": {
+        "Basic": {
+            "price": "Rs. 500/-",
+            "data": [
+                "50 Pages",
+                "3 Users",
+                "10 Sites",
+                "50 MB",
+                "Included",
+                "✔️ ",
+                "❌",
+                "❌",
+                "❌",
+                "❌"
+            ]
+        },
+        "Plus": {
+            "price": "Rs. 1500/-",
+            "data": [
+                "75 Pages",
+                "5 Users",
+                "25 Sites",
+                "250 MB",
+                "Included",
+                "✔️ ",
+                "✔️ ",
+                "✔️ ",
+                "❌",
+                "❌"
+            ]
+        },
+        "Deluxe": {
+            "price": "Rs. 2500/-",
+            "data": [
+                "Unlimited",
+                "10 Users",
+                "100 Sites",
+                "1 GB",
+                "Included",
+                "✔️ ",
+                "✔️ ",
+                "✔️ ",
+                "✔️ ",
+                "❌"
+            ]
+        },
+        "Pro": {
+            "price": "Rs. 3500/-",
+            "data": [
+                "Unlimited",
+                "Unlimited",
+                "Unlimited",
+                "5 GB",
+                "Included",
+                "✔️ ",
+                "✔️ ",
+                "✔️ ",
+                "✔️ ",
+                "✔️ "
+            ]
+        }
+    },
+    "dataLength": 10,
+    "length": 4
+}
